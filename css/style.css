@@ -1,0 +1,117 @@
+html,body {
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+
+.hero.hero-background {
+
+  background: url('../img/slika.png') no-repeat center right fixed;
+
+  -webkit-background-size: contain;
+
+  -moz-background-size: contain;
+
+  -o-background-size: contain;
+
+  background-size: 53% 100%;
+
+}
+
+@media only screen and (max-width: 1250px) {
+  .hero.hero.hero-background {
+    background-size: 70vw 100vh;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .hero.hero.hero-background {
+    background-size: 70vw 70vh;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .hero.hero.hero-background {
+    background-size: cover;
+  }
+}
+
+.hero .nav, .hero.is-success .nav {
+
+  -webkit-box-shadow: none;
+
+  box-shadow: none;
+
+}
+
+.hero .subtitle {
+
+  padding: 3rem 0;
+
+  line-height: 1.5;
+
+}
+
+.button{
+  background: none;
+  border-style: hidden;
+  color:white;
+}
+
+.sign_up{
+  border-radius: 12px;
+  border-style: solid;
+}
+
+.navbar-item{
+  color:purple;
+  font-size: 1.5rem;
+}
+
+.navbar-item span{
+  font-size: 1rem;
+}
+
+.navbar-item strong{
+  color:purple;
+}
+
+.button_1 {
+  border-radius: 50px;
+  background-color: orange;
+  border-color: orange;
+  color: white;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.button_1:hover {
+  transform: translateY(-0.2rem);
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 3px gray);
+}
+
+.button_1:active {
+  transform: translateY(0);
+  filter: none;
+}
+
+.has-text-left h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+  color: purple;
+}
+
+.has-text-left h2 {
+  font-size: 2.6rem;
+  color: orange;
+  letter-spacing: 0.1rem;
+}
+
+.has-text-left p {
+  line-height: 2rem;
+  color: purple;
+}
